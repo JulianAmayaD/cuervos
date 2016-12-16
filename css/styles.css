@@ -1,0 +1,72 @@
+/* *{
+  border: 2px solid red;
+  margin: 10px;
+  padding: 10px;
+}*/
+body{
+  background: black;
+  color: white;
+  font-family: 'Eurostile', 'Catamaran', sans-serif;
+}
+.container{
+  border-left: 2px solid white;
+  border-right:2px solid white;
+  margin: auto;
+  padding: 20px;
+  width: 1200px;
+}
+.cover{
+  background-image: url("../img/backgroundCuervo.jpg");
+  background-size: cover;
+  color: black;
+}
+.cover button{
+  margin-bottom: 120px;
+  margin-left: 10px;
+}
+.img-name{
+  display: inline-block;
+  width: 550px;
+}
+.header{
+  border-top: 2px solid white;
+}
+.logo{
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+.logo img{
+  display: inline-block;
+}
+.menu{
+  display: inline-block;
+  font-size: 24px;
+}
+.menu li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.players{
+  border-bottom: 2px solid white;
+}
+.players h2{
+  font-size: 30px;
+}
+.player h3{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.title{
+  color: black;
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 150px;
+
+}
+.title-description{
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 0;
+}
