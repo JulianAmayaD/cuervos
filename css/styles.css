@@ -15,6 +15,13 @@ body{
   padding: 20px;
   width: 1200px;
 }
+.container-info-l{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.container-info-r{
+  margin-left: 600px;
+}
 .cover{
   background-image: url("../img/backgroundCuervo.jpg");
   background-size: cover;
@@ -31,6 +38,12 @@ body{
 .header{
   border-top: 2px solid white;
 }
+.left{
+  float: left;
+  margin-left: 300px;
+  position: relative;
+  top: -30px
+}
 .logo{
   display: inline-block;
   margin-left: 0;
@@ -41,7 +54,9 @@ body{
 }
 .menu{
   display: inline-block;
+  float: right;
   font-size: 24px;
+  margin-top: 200px;
 }
 .menu li{
   display: inline-block;
@@ -53,9 +68,28 @@ body{
 .players h2{
   font-size: 30px;
 }
+.player{
+  border: 1px solid white;
+  /*overflow: hidden;*/
+  padding: 10px;
+  margin: 10px;
+}
 .player h3{
   font-size: 40px;
   margin-bottom: 20px;
+}
+.player ol{
+  padding: 0;
+}
+.player-name{
+  display: inline-block;
+}
+.right{
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  position: relative;
+  top: -40px;
 }
 .title{
   color: black;
