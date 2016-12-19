@@ -8,6 +8,14 @@ body{
   color: white;
   font-family: 'Eurostile', 'Catamaran', sans-serif;
 }
+.contact a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.contact strong{
+  display: block;
+}
 .container{
   border-left: 2px solid white;
   border-right:2px solid white;
@@ -28,8 +36,27 @@ body{
   color: black;
 }
 .cover button{
+  background: black;
+  border-color: black;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
   margin-bottom: 120px;
   margin-left: 10px;
+  padding: 7px;
+}
+.form{
+  color: black;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.footer{
+  background: #FFFFFF;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
 }
 .img-name{
   display: inline-block;
@@ -58,6 +85,10 @@ body{
   font-size: 24px;
   margin-top: 200px;
 }
+.menu a{
+  color: white;
+  text-decoration: none;
+}
 .menu li{
   display: inline-block;
   margin-right: 30px;
@@ -67,9 +98,11 @@ body{
 }
 .players h2{
   font-size: 30px;
+  margin-left: 10px;
 }
 .player{
   border: 1px solid white;
+  border-radius: 8px;
   /*overflow: hidden;*/
   padding: 10px;
   margin: 10px;
@@ -91,6 +124,10 @@ body{
   position: relative;
   top: -40px;
 }
+.sponsors img{
+  height: 150px;
+  width: 300px;
+}
 .title{
   color: black;
   font-size: 60px;
@@ -103,4 +140,10 @@ body{
   font-size: 35px;
   margin-left: 10px;
   margin-top: 0;
+}
+.title-footer{
+  color: black;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  font-size: 24px;
 }
