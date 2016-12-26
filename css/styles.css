@@ -7,6 +7,9 @@ a strong{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+article ol{
+  list-style-type: none;
+}
 body{
   background: black;
   color: white;
@@ -14,20 +17,33 @@ body{
 }
 form input[type=email]{
   border: 2px solid gray;
-  height: 25px;
+  border-radius: 5px;
+  height: 28px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 form input[type=submit]{
+  background: black;
+  border-color: black;
+  border-radius: 8px;
+  color: white;
   margin-top: 10px;
+  padding: 10px;
+  width: 170px;
 }
 form input[type=text]{
   border: 2px solid gray;
-  height: 25px;
+  border-radius: 5px;
+  height: 28px;
   margin-top: 5px;
 }
 form label{
+  font-size: 18px;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+form p{
+  font-size: 18px;
 }
 table{
   width: 100%;
@@ -77,13 +93,15 @@ td{
 }
 .cover button{
   background: black;
+  /*background: linear-gradient(to left, black, gray);*/
   border-color: black;
-  border-radius: 8px;
+  border-radius: 10px;
   color: white;
+  cursor: pointer;
   font-size: 20px;
   margin-bottom: 120px;
   margin-left: 10px;
-  padding: 7px;
+  padding: 7px 12px 7px 12px;
 }
 .form{
   color: black;
@@ -100,11 +118,14 @@ td{
 }
 .img-name{
   display: inline-block;
-  width: 550px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  width: 500px;
 }
 .img-stadium{
-  width: 1200px;
   height: 400px;
+  width: 1200px;
+  margin-bottom: 10px;
 }
 .header{
   border-top: 2px solid white;
@@ -113,7 +134,7 @@ td{
   float: left;
   margin-left: 300px;
   position: relative;
-  top: -30px
+  top: -60px
 }
 .logo{
   display: inline-block;
@@ -147,9 +168,8 @@ td{
 .player{
   border: 1px solid white;
   border-radius: 8px;
-  /*overflow: hidden;*/
   padding: 10px;
-  margin: 10px;
+  margin: 10px 10px 50px 10px;
 }
 .player h3{
   font-size: 40px;
