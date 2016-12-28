@@ -93,7 +93,6 @@ td{
 }
 .cover button{
   background: black;
-  /*background: linear-gradient(to left, black, gray);*/
   border-color: black;
   border-radius: 10px;
   color: white;
@@ -158,6 +157,9 @@ td{
   display: inline-block;
   margin-right: 30px;
 }
+.menu li:hover{
+  transform: scale(1.2);
+}
 .players{
   border-bottom: 2px solid white;
 }
@@ -187,6 +189,9 @@ td{
   margin-right: 300px;
   position: relative;
   top: -40px;
+}
+.shield:hover{
+  transform: scale(1.1);
 }
 .sponsors{
   margin-right: 170px;
